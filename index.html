@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Cryptocurrency Tracker and Informations</title>
+    <link rel="stylesheet" href="stilovi.css">
+  </head>
+  <body>
+    <h1>Currently trending...</h1>
+    <table>
+      <thead>
+        <tr>
+          <th class="kolumna">Trending</th>
+          <th class="kolumna" style="display:none;">ID</th>
+          <th class="kolumna">Market Cap Rang</th>
+          <th class="kolumna">Logo</th>
+          <th class="kolumna">Više informacija</th>
+        </tr>
+      </thead>
+      <tbody class="tijelo">
+
+      </tbody>
+    </table>
+
+    <div class="kontejner" id="modalni-kontejner">
+      <div class="modali">
+        <h1 class="nazivKriptovalute"></h1>
+        <p class="textKriptovalute"></p>
+        <div class="ukupno">
+          <div class="prvi dio">
+            <h2>Cijena</h2>
+            <p class="euri"></p>
+            <p class="dollari"></p>
+          </div>
+          <div class="drugi dio">
+            <h2>U cirkulaciji</h2>
+            <p class="predvidenaCirkulacija"></p>
+          </div>
+          <div class="treci dio">
+            <h2>Promjena u zadnjih 24h</h2>
+            <p class="promjenaEuri"></p>
+            <p class="promjenaDollari"></p>
+        </div>
+
+        </div>
+
+        <button class="close" type="button" name="button">Natrag</button>
+      </div>
+    </div>
+
+    <script src="index.js" charset="utf-8"></script>
+  </body>
+</html>
